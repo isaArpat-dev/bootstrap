@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İsa Arpat - Kişisel Portföy</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <nav class="container navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">İsa Arpat</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Ana Sayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Hakkında</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projeler</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">İletişim</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="text-center bg-light py-5">
+        <div class="container">
+            <h1 class="display-4">Hoş Geldiniz!</h1>
+            <p class="lead">Ben İsa Arpat, İstanbul Üniversitesi-Cerrahpaşa'da Bilgisayar Mühendisliği öğrencisiyim.</p>
+        </div>
+    </section>
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2>Hakkında</h2>
+            <p>Bilgisayar Mühendisliği öğrencisi olarak, yazılım geliştirme, algoritmalar ve veri yapıları konularında derinlemesine bilgi sahibiyim. İstanbul Üniversitesi-Cerrahpaşa'da eğitim alıyorum ve projelerimle kendimi geliştiriyorum.</p>
+        </div>
+    </section>
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2>Projeler</h2>
+            <div class="row">
+                <!-- Proje kartları burada olacak -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="images/java-logo.png" alt="Java Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Java Projesi</h5>
+                            <p class="card-text">Java dilinde yazılmış bir proje.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="images/python-logo.png" alt="Python Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Projesi</h5>
+                            <p class="card-text">Python dilinde yazılmış bir proje.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="images/js-logo.png" alt="JavaScript Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript Projesi</h5>
+                            <p class="card-text">JavaScript dilinde yazılmış bir proje.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="py-5">
+        <div class="container">
+            <h2>Blog</h2>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                    <h5 class="mb-1">Blog Yazısı 1</h5>
+                    <p class="mb-1">Blog yazısı 1 açıklaması.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <h5 class="mb-1">Blog Yazısı 2</h5>
+                    <p class="mb-1">Blog yazısı 2 açıklaması.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <h5 class="mb-1">Blog Yazısı 3</h5>
+                    <p class="mb-1">Blog yazısı 3 açıklaması.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2>İletişim</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">İsim:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj:</label>
+                    <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Gönder</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 İsa Arpat. Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
