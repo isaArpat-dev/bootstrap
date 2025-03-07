@@ -1,5 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
 }
 
 header {
@@ -12,4 +14,34 @@ section {
 
 footer {
     margin-top: 2rem;
+}
+
+.card {
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+h1, h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
 }
